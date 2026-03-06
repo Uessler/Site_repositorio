@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Joao Gabriel Klitzke</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-noise"></div>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="logo">joao://computacao</a>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Referencias</a></li>
+        <li><a href="#skills">Competencias</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container reveal">
+      <p class="tag">Delphi para MES | ROS 2 para Robotica</p>
+      <h1>Desenvolvo sistemas MES em Delphi e projetos de robotica com ROS 2.</h1>
+      <p class="hero-copy">
+        Sou Joao Gabriel Fonseca Klitzke, estudante de Ciencia da Computacao com foco profissional
+        em desenvolvimento de software para industria. Atuo na criacao de solucoes MES com Delphi
+        e no desenvolvimento de sistemas roboticos usando ROS 2.
+      </p>
+      <div class="hero-cta">
+        <a href="#projetos" class="btn btn-primary">Ver referencias profissionais</a>
+        <a href="mailto:joaogklitzke@gmail.com" class="btn btn-ghost">Enviar e-mail</a>
+        <a href="https://github.com/Uessler" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="about container reveal">
+      <div class="about-card">
+        <h2>Foco profissional</h2>
+        <p>
+          Minha principal experiencia profissional esta em Delphi, construindo sistemas MES
+          voltados para operacao industrial, fluxo de producao e execucao da manufatura.
+          Trabalho com modelagem de regras de negocio, integracao entre modulos e manutencao
+          de sistemas de alta criticidade para o ambiente fabril.
+        </p>
+        <p>
+          Em paralelo, desenvolvo projetos com ROS 2, aplicando C++ em nos de robotica,
+          simulacao de comportamento e validacao de cenarios com Gazebo e RViz2.
+        </p>
+        <p>
+          Formacao: Ciencia da Computacao no IFC Blumenau.
+        </p>
+      </div>
+      <div class="stats-grid">
+        <article>
+          <span class="stat-value">Delphi</span>
+          <span class="stat-label">Desenvolvimento e manutencao de sistemas MES</span>
+        </article>
+        <article>
+          <span class="stat-value">MES</span>
+          <span class="stat-label">Fluxo de manufatura, operacao e regras de processo</span>
+        </article>
+        <article>
+          <span class="stat-value">ROS 2</span>
+          <span class="stat-label">Robotica com C++, URDF, Gazebo e RViz2</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="projetos" class="projects container">
+      <div class="section-head reveal">
+        <h2>Referencias profissionais</h2>
+        <p>Resumo das frentes principais da minha atuacao em desenvolvimento de software.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured reveal">
+          <p class="project-type">Software Industrial</p>
+          <h3>Sistemas MES em Delphi</h3>
+          <p>
+            Desenvolvimento de funcionalidades para sistemas de execucao da manufatura,
+            com foco em estabilidade, regras de processo, fluxo operacional e suporte
+            ao ambiente de producao industrial.
+          </p>
+          <ul class="stack">
+            <li>Delphi</li>
+            <li>MES</li>
+            <li>Regras de Negocio</li>
+          </ul>
+          <p class="project-note">Experiencia aplicada em ambiente industrial.</p>
+        </article>
+
+        <article class="project-card featured reveal">
+          <p class="project-type">Robotica e Sistemas</p>
+          <h3>Robo AGV com ROS 2</h3>
+          <p>
+            Projeto de veiculo guiado automatizado com nos em C++, modelagem URDF
+            e simulacoes no Gazebo e RViz2 para validar navegacao e comportamento
+            do sistema em ambiente controlado.
+          </p>
+          <ul class="stack">
+            <li>ROS 2</li>
+            <li>C++</li>
+            <li>Gazebo + RViz2</li>
+          </ul>
+          <a href="https://github.com/Uessler" class="project-link" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills container reveal">
+      <h2>Principais competencias</h2>
+      <div class="skills-list">
+        <span>Delphi para sistemas MES</span>
+        <span>Modelagem de regras de negocio</span>
+        <span>Sistemas para manufatura</span>
+        <span>ROS 2 com C++</span>
+        <span>URDF, Gazebo e RViz2</span>
+        <span>Linux e ambiente de dev</span>
+      </div>
+    </section>
+
+    <section id="contato" class="contact container reveal">
+      <h2>Contato</h2>
+      <div class="contact-grid">
+        <a class="contact-item" href="mailto:joaogklitzke@gmail.com">joaogklitzke@gmail.com</a>
+        <a class="contact-item" href="https://github.com/Uessler" target="_blank" rel="noopener noreferrer">github.com/Uessler</a>
+        <p class="contact-item">IFC Blumenau</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>&copy; <span id="year"></span> Joao Gabriel Fonseca Klitzke.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
